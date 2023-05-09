@@ -22,7 +22,7 @@ for i in range (0,qtde_provas):
     geral_notas.append(notas) 
 
 #Armazenando a maior nota
-maior_nota = max(geral_notas, key=int)
+maior_nota = max(geral_notas, key=float)
 
 # Houve simulado ?
 p_sim= int(input('Digite 1 se ocorreu o simulado e 0 se não ocorreu: \n'))
